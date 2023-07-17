@@ -1,0 +1,271 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fbfbfb;
+}
+
+h1 {
+  padding-top: 10%;
+}
+
+.header1 {
+  background-color: #5b3189;
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+tbody {
+  background-color: #d6c9e3;
+}
+
+.btn-text {
+  background-color: #ab96c3;
+  color: #ffffff;
+}
+
+.login {
+  background-color: #eae1f3;
+  border-block-color: #5b3189;
+}
+
+.datadiri {
+  background-color: #eae1f3;
+  border-block-color: #5b3189;
+}
+
+.datadiri h3 {
+  color: #5b3189;
+}
+
+.pengumuman {
+  background-image: url('../images/2.png');
+  width: 100%;
+}
+
+.usershape {
+  border: 2px solid #5b3189;
+}
+
+.rshape {
+  border: 1px solid #6f6f6f;
+}
+
+.textlogin h3 {
+  color: #5b3189;
+}
+
+.textpengumuman h2 {
+  color: #5b3189;
+}
+
+.button1 {
+  background-color: #5b3189;
+  color: #ffffff;
+  border: aliceblue 3px solid;
+  border-radius: 5px;
+  letter-spacing: 2px;
+}
+
+.button1:hover {
+  background-color: #391f55;
+  color: #ffffff;
+  opacity: 10;
+}
+
+.username {
+  color: #5b3189;
+}
+
+.pass {
+  color: #5b3189;
+}
+
+button {
+  font-family: sans-serif;
+  font-size: medium;
+  background-color: #5b3189;
+  color: #ffffff;
+  font-weight: bold;
+  text-decoration-color: aliceblue;
+  border: aliceblue 3px solid;
+  border-radius: 5px;
+  padding: 12px 20px;
+  margin-top: 10px;
+}
+
+button:hover {
+  opacity: 10;
+}
+.logout {
+  background-color: #ab96c3;
+}
+.logout:hover {
+  background-color: #5b3189;
+}
+.footer {
+  background-image: linear-gradient(to left, #5b3189, #ffffff);
+}
+
+.footer .footer-center {
+  width: 50%;
+}
+
+.footer .footer-right {
+  width: 70%;
+}
+.button-berkas {
+  background-color: #ab96c3;
+  border: none;
+  padding: 10px 20px;
+  display: inline-block;
+  font-size: 15px;
+  font-weight: 600;
+  width: 120px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transform: skew(-21deg);
+}
+.button-berkas::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 100%;
+  left: 0;
+  background: rgb(63, 34, 94);
+  opacity: 0;
+  z-index: -1;
+  transition: all 0.5s;
+}
+.button-berkas:hover {
+  color: #fff;
+}
+span {
+  display: inline-block;
+  transform: skew(21deg);
+}
+.button-berkas:hover::before {
+  left: 0;
+  right: 0;
+  opacity: 1;
+}
+
+.cardd {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 320px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  padding: 32px;
+  overflow: hidden;
+  border-radius: 10px;
+  transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  color: #000000;
+  transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.content .heading {
+  font-weight: 700;
+  font-size: 32px;
+}
+
+.content .para {
+  line-height: 1;
+}
+
+.content .btn {
+  color: #e8e8e8;
+  text-decoration: none;
+  padding: 10px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  background: linear-gradient(-45deg, #eee3cb 0%, #c3b0d6 100%);
+  border-radius: 5px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.cardd::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 5px;
+  background: linear-gradient(-45deg, #eee3cb 0%, #c3b0d6 100%);
+  z-index: -1;
+  transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.hea {
+  color: #472d63;
+}
+
+.cardd:hover::before {
+  height: 100%;
+}
+
+.cardd:hover {
+  box-shadow: none;
+}
+
+.cardd:hover .btn {
+  color: #212121;
+  background: #e8e8e8;
+}
+
+.btn-primary {
+  background: #ab96c3;
+  outline: none;
+}
+
+.download-template {
+  text-decoration: none;
+}
+
+.download-template p:hover {
+  color: #0f0f0f;
+}
+
+.btn-primary:hover {
+  background-color: #8c5bc0;
+  opacity: 1;
+}
+
+.atlog h4 {
+  color: #5b3189;
+}
+.button1 {
+  background-color: #5b3189;
+  color: #ffffff;
+  border-radius: 200px;
+  letter-spacing: 2px;
+}
+
+.button1:hover {
+  background-color: #391f55;
+  color: #ffffff;
+}
+@media screen and (max-width: 600px) {
+  table {
+    width: 75%;
+  }
+  card {
+    width: 50%;
+  }
+}
